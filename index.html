@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenit POS — El sistema de administración comercial más completo e intuitivo</title>
+  <meta name="description" content="Zenit POS: punto de venta, inventario, mesas, turnos y multi-sucursal en un solo lugar. Descarga gratis para Windows y Android." />
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav">
+    <div class="contenedor nav__inner">
+      <a href="index.html" class="marca">
+        <img src="assets/img/logo.png" alt="Zenit" />
+        <span class="marca__texto">Zenit<span> POS</span></span>
+      </a>
+      <nav class="nav__links">
+        <a href="#caracteristicas">Características</a>
+        <a href="#capturas">El sistema</a>
+        <a href="#empresa">Empresa</a>
+        <a href="#descargar">Descargar</a>
+      </nav>
+      <a href="#descargar" class="btn btn--primario nav__cta">Descargar gratis</a>
+      <button class="menu-btn" aria-label="Menú" onclick="document.querySelector('.nav__links').classList.toggle('abierto')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="descargar">
+    <div class="hero__blob"></div>
+    <div class="contenedor hero__inner">
+      <span class="chip"><span class="chip__punto"></span> Gratis para empezar · Sin tarjeta de crédito</span>
+      <h1>Todo tu negocio, <span class="destacado">en un solo lugar</span></h1>
+      <p class="hero__sub">
+        Ventas, inventario, mesas, turnos y reportes. El sistema de administración comercial
+        más completo del mercado, tan intuitivo que lo dominas en una tarde.
+      </p>
+
+      <!-- Tarjetas de descarga -->
+      <div class="descargas">
+        <div class="dl-card">
+          <div class="dl-card__icono">
+            <!-- windows -->
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.6 10.3 4.6v6.7H3V5.6Zm0 12.8 7.3 1v-6.6H3v5.6Zm8.2 1.1L21 21V12.9h-9.8v6.6Zm0-14.9v6.6H21V3l-9.8 1.6Z"/></svg>
+          </div>
+          <div class="dl-card__plataforma">Windows</div>
+          <div class="dl-card__meta">Escritorio · Funciona sin internet · Windows 10/11</div>
+          <a href="descargar-windows.html" class="btn btn--primario">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            Descargar para Windows
+          </a>
+          <a href="descargar-windows.html" class="dl-card__tutorial">Ver guía de instalación →</a>
+        </div>
+
+        <div class="dl-card">
+          <div class="dl-card__icono">
+            <!-- android / phone -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          </div>
+          <div class="dl-card__plataforma">Android</div>
+          <div class="dl-card__meta">Móvil y tablet · Siempre conectado · Android 8+</div>
+          <a href="descargar-android.html" class="btn btn--primario">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
+            Descargar para Android
+          </a>
+          <a href="descargar-android.html" class="dl-card__tutorial">Ver guía de instalación →</a>
+        </div>
+      </div>
+
+      <p class="hero__nota">
+        ¿Verás una <strong>alerta de seguridad</strong> al instalar? Es completamente normal —
+        <a href="descargar-windows.html" style="color:var(--azul);font-weight:600">te explicamos por qué en 30 segundos</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= AVISO SEGURIDAD ================= -->
+  <section class="contenedor" style="padding:34px 22px 0;">
+    <div class="aviso reveal">
+      <div class="aviso__icono">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 7.7 8 9 4.6-1.3 8-4 8-9V6l-8-3Z"/><path d="M9 12l2 2 4-4"/></svg>
+      </div>
+      <div>
+        <h3>Tu descarga es segura</h3>
+        <p>
+          Como somos un desarrollador independiente y en crecimiento, Windows y Android
+          mostrarán una advertencia porque nuestra app todavía no tiene una firma digital de pago.
+          <strong>No es un virus.</strong> Sigue nuestra guía paso a paso y estarás listo en menos de un minuto:
+          <a href="descargar-windows.html">guía Windows</a> · <a href="descargar-android.html">guía Android</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CARACTERÍSTICAS ================= -->
+  <section class="seccion" id="caracteristicas">
+    <div class="contenedor centro">
+      <span class="eyebrow">Por qué elegir Zenit</span>
+      <h2 class="titulo-seccion">Un solo sistema para administrar todo</h2>
+      <p class="subtitulo-seccion">
+        Dejá atrás las hojas de cálculo y las apps sueltas. Zenit reúne cada parte de tu
+        operación con una interfaz pensada para que cualquiera la use sin capacitación.
+      </p>
+
+      <div class="grid-features">
+        <div class="feature reveal">
+          <div class="feature__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h2l2.4 12.3a2 2 0 0 0 2 1.7h7.7a2 2 0 0 0 2-1.6L21 8H6"/><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/></svg></div>
+          <h3>Punto de venta veloz</h3>
+          <p>Cobra en segundos con carrito, múltiples métodos de pago y tickets. Cero fricción en cada venta.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7 12 3 4 7l8 4 8-4Z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg></div>
+          <h3>Inventario con recetas</h3>
+          <p>Controla insumos, recetas y preparaciones. El stock se descuenta solo con cada pedido.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 4v4M16 4v4"/></svg></div>
+          <h3>Mesas y comandas</h3>
+          <p>Gestiona salón, transfiere pedidos entre mesas y envía comandas a cocina en tiempo real.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5m0 14h16M8 15l3-4 3 2 4-6"/></svg></div>
+          <h3>Reportes en vivo</h3>
+          <p>Dashboard con ventas del día, productos top y mejores clientes. Decide con datos, no con corazonadas.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg></div>
+          <h3>Turnos y arqueo de caja</h3>
+          <p>Abre y cierra turnos con totales por método de pago y diferencias de efectivo automáticas.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="feature__icono"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"/><path d="M9 21v-8h6v8"/></svg></div>
+          <h3>Multi-sucursal</h3>
+          <p>Administra varios locales con stock independiente y permisos por puesto desde una sola cuenta.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SHOWCASE / CAPTURAS ================= -->
+  <section class="seccion seccion--nube" id="capturas">
+    <div class="contenedor">
+      <div class="centro" style="margin-bottom:8px;">
+        <span class="eyebrow">El sistema por dentro</span>
+        <h2 class="titulo-seccion">Diseñado para que fluyas</h2>
+        <p class="subtitulo-seccion">Cada pantalla está pensada para eliminar clics innecesarios.</p>
+      </div>
+
+      <div class="showcase">
+
+        <!-- Fila 1 -->
+        <div class="show-row reveal">
+          <div class="show-row__txt">
+            <span class="pico">Ventas</span>
+            <h3>Cobra sin pensarlo dos veces</h3>
+            <p>Toca los productos, aplica descuentos y cobra. Todo desde una sola pantalla, con o sin internet.</p>
+            <ul class="lista-check">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Carrito rápido con búsqueda instantánea</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Efectivo, tarjeta, transferencia o mixto</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Impresión de tickets por Bluetooth</li>
+            </ul>
+          </div>
+          <!-- Reemplaza el bloque .captura__ph por: <img src="assets/img/captura-ventas.png" alt="Pantalla de ventas de Zenit POS" /> -->
+          <div class="captura">
+            <div class="captura__barra"><i></i><i></i><i></i></div>
+            <div class="captura__ph"><span>📸 Captura: Pantalla de ventas<br>(assets/img/captura-ventas.png)</span></div>
+          </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="show-row reveal">
+          <div class="show-row__txt">
+            <span class="pico">Inventario</span>
+            <h3>Stock que se cuida solo</h3>
+            <p>Define recetas para cada producto y el inventario se descuenta automáticamente en cada venta. Alertas de stock bajo incluidas.</p>
+            <ul class="lista-check">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Insumos, recetas y preparaciones</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Movimientos de entrada, salida y ajuste</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Alertas automáticas de stock mínimo</li>
+            </ul>
+          </div>
+          <div class="captura">
+            <div class="captura__barra"><i></i><i></i><i></i></div>
+            <div class="captura__ph"><span>📸 Captura: Inventario e insumos<br>(assets/img/captura-inventario.png)</span></div>
+          </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="show-row reveal">
+          <div class="show-row__txt">
+            <span class="pico">Reportes</span>
+            <h3>Tu negocio en una mirada</h3>
+            <p>Un dashboard claro con lo que importa: cuánto vendiste hoy, qué se vende más y quiénes son tus mejores clientes.</p>
+            <ul class="lista-check">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> KPIs del día en vivo</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Productos y clientes top</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Exportación a Excel/CSV</li>
+            </ul>
+          </div>
+          <div class="captura">
+            <div class="captura__barra"><i></i><i></i><i></i></div>
+            <div class="captura__ph"><span>📸 Captura: Dashboard de reportes<br>(assets/img/captura-dashboard.png)</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EMPRESA ================= -->
+  <section class="seccion empresa" id="empresa">
+    <div class="empresa__blob"></div>
+    <div class="contenedor">
+      <div class="empresa__grid">
+        <div>
+          <span class="eyebrow">Zenit Software</span>
+          <h2 class="titulo-seccion">Herramientas que llevan tu negocio a la cima</h2>
+          <p>
+            <strong>Zenit</strong> significa <em>cenit</em>: el punto más alto. Ese es nuestro objetivo — construir
+            el software de administración comercial más completo del mercado, pero tan simple que
+            cualquier persona lo domine en pocas horas, sin cursos ni manuales.
+          </p>
+          <p>
+            Somos un equipo independiente obsesionado con eliminar la fricción. Creemos que la
+            tecnología para tu negocio debería ser poderosa por dentro e invisible por fuera.
+          </p>
+          <div class="valores">
+            <div class="valor"><h4>🎯 Simplicidad radical</h4><p>Si necesita manual, lo rediseñamos.</p></div>
+            <div class="valor"><h4>⚡ Sin fricción</h4><p>Cada flujo, obvio y rápido.</p></div>
+            <div class="valor"><h4>🔒 Tus datos, tuyos</h4><p>Privacidad y seguridad primero.</p></div>
+            <div class="valor"><h4>🚀 En evolución</h4><p>Mejoras constantes y actualizaciones automáticas.</p></div>
+          </div>
+        </div>
+        <div class="empresa__logo-wrap">
+          <img src="assets/img/logo.png" alt="Logo de Zenit Software" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA FINAL ================= -->
+  <section class="seccion cta-final">
+    <div class="contenedor">
+      <h2>Empieza gratis hoy mismo</h2>
+      <p>Descarga Zenit y ten tu negocio bajo control en minutos.</p>
+      <div class="cta-final__botones">
+        <a href="descargar-windows.html" class="btn btn--primario btn--grande">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 5.6 10.3 4.6v6.7H3V5.6Zm0 12.8 7.3 1v-6.6H3v5.6Zm8.2 1.1L21 21V12.9h-9.8v6.6Zm0-14.9v6.6H21V3l-9.8 1.6Z"/></svg>
+          Descargar para Windows
+        </a>
+        <a href="descargar-android.html" class="btn btn--claro btn--grande">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          Descargar para Android
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer__top">
+        <div>
+          <a href="index.html" class="marca">
+            <img src="assets/img/logo.png" alt="Zenit" style="width:34px;height:34px" />
+            <span class="marca__texto">Zenit<span> Software</span></span>
+          </a>
+          <p class="footer__desc">El sistema de administración comercial más completo e intuitivo. Hecho para que tu negocio llegue a la cima.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Producto</h5>
+          <a href="#caracteristicas">Características</a>
+          <a href="#capturas">El sistema</a>
+          <a href="descargar-windows.html">Descargar Windows</a>
+          <a href="descargar-android.html">Descargar Android</a>
+        </div>
+        <div class="footer__col">
+          <h5>Ayuda</h5>
+          <a href="descargar-windows.html">Instalar en Windows</a>
+          <a href="descargar-android.html">Instalar en Android</a>
+          <a href="mailto:jsimonbenitezc@gmail.com">Soporte</a>
+        </div>
+        <div class="footer__col">
+          <h5>Empresa</h5>
+          <a href="#empresa">Sobre Zenit</a>
+          <a href="mailto:jsimonbenitezc@gmail.com">Contacto</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Zenit Software. Todos los derechos reservados.</span>
+        <span>Hecho con ❤ para negocios que crecen.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Animación de aparición al hacer scroll
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
